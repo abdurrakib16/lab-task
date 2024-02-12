@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main()
+{
+    printf("Name: Abdur Rakib \nUniv: Northern University Bangladesh \nAddress: Bagmara, Rajshahi, Bangladesh"); //first program
+
+    return 0;
+}
