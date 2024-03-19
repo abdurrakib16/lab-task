@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    int sec, x, min, hour, mod;
+    printf("Enter second: ");
+    scanf("%d", &sec);
+
+    hour=sec/3600;
+    x=sec%3600;
+    min=x/60;
+    sec=x%60;
+
+    printf("Hour: %d\nMinute: %d\nSecond: %d", hour, min, sec);
+}
