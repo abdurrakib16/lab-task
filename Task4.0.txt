@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+    int A, B, C;
+    float D;
+    printf("Enter 3 integer number: ");
+    scanf("%d %d %d", &A, &B, &C);
+    printf("Enter a float number: ");
+    scanf("%f", &D);
+
+    int result=pow(A, C)+(2*B)*(A/2)-D/3;
+    printf("%d", result);
+
+    getch();
+    return 0;
+}

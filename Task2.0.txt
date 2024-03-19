@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+    int M, N;
+
+    printf("Enter M and N: ");
+    scanf("%d %d", &M, &N);
+    int result = pow(M, N);
+
+    printf("%d^%d: %d", M, N, result);
+
+    getch();
+    return 0;
+}

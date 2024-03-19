@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+    int i;
+    float f, add, sub;
+    printf("Enter integer number: ");
+    scanf("%d", &i);
+    printf("Enter float number: ");
+    scanf("%f", &f);
+
+    add=i+f;
+    sub=i-f;
+
+    printf("%.1f %.1f", add, sub);
+
+    getch();
+    return 0;
+}

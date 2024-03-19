@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int TW;
+
+    printf("Enter total weight of the shipment: ");
+    scanf("%d", &TW);
+
+    int X = TW/4;
+    int Y=X*4;
+
+    printf("Maximum load can carry: %d\n", Y);
+
+    getch();
+    return 0;
+}
